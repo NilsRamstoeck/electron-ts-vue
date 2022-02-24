@@ -36,9 +36,6 @@ const count = ref(0)
 <script lang="ts">
    export default {
       name: 'HelloWorld',
-      props: {
-
-      },
       methods: {
 
       },
