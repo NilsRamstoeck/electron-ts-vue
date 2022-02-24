@@ -33,15 +33,6 @@ const count = ref(0)
   </p>
 </template>
 
-<script lang="ts">
-   export default {
-      name: 'HelloWorld',
-      methods: {
-
-      },
-   }
-</script>
-
 <style scoped>
 a {
   color: #42b983;
