@@ -7,7 +7,7 @@ const isDev = process.env.IS_DEV == "true" ? true : false;
 //hot reload
 if(isDev){
    try {
-      require('electron-reloader')();
+      require('electron-reloader')(module);
    } catch (_) {}
 };
 
