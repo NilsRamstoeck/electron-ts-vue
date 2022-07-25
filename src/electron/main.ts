@@ -4,7 +4,7 @@ import { app, BrowserWindow } from 'electron';
 
 const isDev = process.env.IS_DEV == "true" ? true : false;
 
-function createWindow() {
+function createWindow():void {
    // Create the browser window.
    const mainWindow = new BrowserWindow({
       width: isDev ? 1200 : 800,
@@ -20,7 +20,7 @@ function createWindow() {
    mainWindow.loadURL(
       isDev
       ? 'http://localhost:3000'
-      : `file://${path.join(__dirname, '../index.html')}`
+      : `file://${path.join(__dirname, '../src/index.html')}`
    );
    // Open the DevTools.
    if (isDev) {

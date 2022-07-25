@@ -1,6 +1,6 @@
-# Vue 3 + Typescript + Vite + Electron
+# Typescript + Vite + Electron
 
-This template should help get you started developing an Electron App with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This template should help get you started developing an Electron App with and Typescript in Vite.
 
 ## Recommended IDE Setup
 
